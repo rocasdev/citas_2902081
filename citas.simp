@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.10" multi-file="no" uid="simp2bd21ee6b43f4c2ba2a558f191c8d1ec" creation-date="02/23/2024 08:28:04">
+  <meta>
+    <name>citas</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="enumeration" type-id="enumeration" type="Enumeration" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="Enumeration" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>4</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
+        <value>21</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-93bbba26b4274585be295dc5011ec4f3" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-14719f5bd26c4ef0b2699ceb9bbc67d8" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:8c2679b1061f400d8caeaf820ce18295" name="Speciality" class-ref="8c2679b1061f400d8caeaf820ce18295" />
+        <type id="Class:cc037caa5a3e47e29438d5ea411c0e53" name="Speciality" class-ref="cc037caa5a3e47e29438d5ea411c0e53" />
+        <type id="Class:d3bdabf0233643909ec5e1d7bb7452bc" name="Doctor" class-ref="d3bdabf0233643909ec5e1d7bb7452bc" />
+        <type id="Class:cdaf3f50b6c04c6793bf5bc0d29a6ad0" name="DniType" class-ref="cdaf3f50b6c04c6793bf5bc0d29a6ad0" />
+        <type id="DniType" name="DniType" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pd86d309f8395440d9229972301489a02_220849942" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>02/23/2024 08:28:04</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p47dc606011b8438f9a00e1680fbdb8a6_810301136" name="citas" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="26,1">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>02/23/2024 08:28:04</creation-date>
+          <change-date>02/23/2024 10:50:08</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="4bc0ee7b18784237bb64ac9f6693c122" cid="C002" type="class" name="Class2" owner="0b478ffff17449f6b777d53ec9fca341" creator="" creation-date="02/23/2024 08:30:56" />
+          <item id="32fdc9a009e24788ac57f2fc7cdb5def" cid="PROP001" type="property" name="id" owner="d3bdabf0233643909ec5e1d7bb7452bc" creator="" creation-date="02/23/2024 08:31:29" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="cc037caa5a3e47e29438d5ea411c0e53" cid="E005" type="enumeration" name="Speciality" owner="01240da1be4245a88383f824d589b7e3" creator="" creation-date="02/23/2024 10:50:08">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="cc037caa5a3e47e29438d5ea411c0e53_enumeration_c" type="enumeration" creation-date="02/23/2024 10:50:08" ref="" />
+            </stereotype-instances>
+            <enumeration-items>
+              <enumeration-item id="a2e143d33839a4e2ab1cb33e070927f93422" cid="ENI008" name="MEDICINA_GENERAL" creation-date="02/23/2024 10:50:35" />
+              <enumeration-item id="ac7ea76d13f3d4fb180a467f898c15953278" cid="ENI009" name="CARDIOLOGIA" creation-date="02/23/2024 10:52:04" />
+              <enumeration-item id="ab9015793c9154a28af9e2199fbd842d9622" cid="ENI010" name="NEUROLOGIA" creation-date="02/23/2024 10:52:09" />
+              <enumeration-item id="ab13397baeac5443c8f11a87112bb2207246" cid="ENI013" name="PODOLOGIA" creation-date="02/23/2024 10:52:19" />
+              <enumeration-item id="abe903e771fe546a0922b218ab5e4c3d7526" cid="ENI014" name="PSICOLOGIA" creation-date="02/23/2024 10:52:21" />
+              <enumeration-item id="a740cf0f8437c4f179e293cb832369cdb430" cid="ENI015" name="PSIQUIATRIA" creation-date="02/23/2024 10:52:29" />
+              <enumeration-item id="a38e647b25c764190816c0711a18610d854" cid="ENI016" name="PEDIATRIA" creation-date="02/23/2024 10:52:37" />
+              <enumeration-item id="ae0beb27625cc4ec58485792f6a092e7b854" cid="ENI017" name="OPTOMETRIA" creation-date="02/23/2024 10:52:39" />
+              <enumeration-item id="ab8767cb815e3418a918d0de3f6d9541b702" cid="ENI018" name="ONCOLOGIA" creation-date="02/23/2024 10:52:47" />
+              <enumeration-item id="a999bc4c3e5a84ab3b618f8ded1a9997e374" cid="ENI019" name="OTORRINOLARINGOLOGIA" creation-date="02/23/2024 10:52:53" />
+              <enumeration-item id="a0037439d4f6e4f4aa6f551d6dcceec82470" cid="ENI020" name="DERMATOLOGIA" creation-date="02/23/2024 10:53:00" />
+            </enumeration-items>
+          </item>
+          <item id="cdaf3f50b6c04c6793bf5bc0d29a6ad0" cid="E001" type="enumeration" name="DniType" owner="01240da1be4245a88383f824d589b7e3" creator="" creation-date="02/23/2024 10:47:58">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="cdaf3f50b6c04c6793bf5bc0d29a6ad0_enumeration_c" type="enumeration" creation-date="02/23/2024 10:47:58" ref="" />
+            </stereotype-instances>
+            <enumeration-items>
+              <enumeration-item id="a422c0bbe79704b518c1022c13a1fd363750" cid="ENI002" name="CC" creation-date="02/23/2024 10:48:44" />
+              <enumeration-item id="af3dcf67963a248e4be288cd1ae071126102" cid="ENI003" name="CE" creation-date="02/23/2024 10:48:48" />
+              <enumeration-item id="a98c0511e8d1e4ad0805ad295e7b5b79b694" cid="ENI004" name="TI" creation-date="02/23/2024 10:48:49" />
+              <enumeration-item id="a51d536f0ba2a435a9becc8c59f4cafb4590" cid="ENI005" name="RC" creation-date="02/23/2024 10:48:54" />
+              <enumeration-item id="ade8f6e6710f64747b2cc7182042f7fb2878" cid="ENI006" name="CM" creation-date="02/23/2024 10:48:58" />
+              <enumeration-item id="aeccf7f2be78645b2a5b1f3ada9cab0da934" cid="ENI007" name="PPT" creation-date="02/23/2024 10:49:01" />
+            </enumeration-items>
+          </item>
+          <item id="ae684781e7f2421a96637e80211ac8d7" cid="PROP003" type="property" name="lastName" owner="d3bdabf0233643909ec5e1d7bb7452bc" creator="" creation-date="02/23/2024 08:32:46" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="967e957500004c1cb2c8f3d751b7d454" cid="PROP006" type="property" name="medicalRecord" owner="d3bdabf0233643909ec5e1d7bb7452bc" creator="" creation-date="02/23/2024 10:46:35" visibility="private">
+            <structural-feature type="BigInteger" type-id="Uml.BigInteger" />
+          </item>
+          <item id="936f2ad764394b59add355c03b8dd67f" cid="PROP004" type="property" name="dniType" owner="d3bdabf0233643909ec5e1d7bb7452bc" creator="" creation-date="02/23/2024 08:33:16" visibility="private">
+            <structural-feature type="DniType" type-id="DniType" />
+          </item>
+          <item id="c2a55f19275d4cf8a072c4ee87dea6de" cid="PROP005" type="property" name="dni" owner="d3bdabf0233643909ec5e1d7bb7452bc" creator="" creation-date="02/23/2024 08:33:22" visibility="private">
+            <structural-feature type="BigInteger" type-id="Uml.BigInteger" />
+          </item>
+          <item id="41e5a8991e354ce68c2cc41286ae0fab" cid="PROP002" type="property" name="name" owner="d3bdabf0233643909ec5e1d7bb7452bc" creator="" creation-date="02/23/2024 08:32:40" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="0b478ffff17449f6b777d53ec9fca341" cid="PKG001" type="package" name="entities" creator="" creation-date="02/23/2024 08:28:28">
+            <owned-items />
+          </item>
+          <item id="57f921f28d344773a64dd2668b84686a" cid="PROP007" type="property" name="speciality" owner="d3bdabf0233643909ec5e1d7bb7452bc" creator="" creation-date="02/23/2024 10:46:48" visibility="private">
+            <structural-feature type="Speciality" type-id="Class:cc037caa5a3e47e29438d5ea411c0e53" />
+          </item>
+          <item id="d3bdabf0233643909ec5e1d7bb7452bc" cid="C003" type="class" name="Doctor" owner="0b478ffff17449f6b777d53ec9fca341" creator="" creation-date="02/23/2024 08:31:07">
+            <owned-items />
+            <attributes>
+              <attribute id="a1b57ffe111cc4553b6091cda93b16ebf560" cid="PROP001" name="id" creation-date="02/23/2024 08:31:29" property-ref="32fdc9a009e24788ac57f2fc7cdb5def" />
+              <attribute id="a6021d34b98114f178777e38f2230cb16307" cid="PROP002" name="name" creation-date="02/23/2024 08:32:40" property-ref="41e5a8991e354ce68c2cc41286ae0fab" />
+              <attribute id="af3785df58c764007a6ea4cd701adc4a5786" cid="PROP003" name="lastName" creation-date="02/23/2024 08:32:46" property-ref="ae684781e7f2421a96637e80211ac8d7" />
+              <attribute id="a31d0a886b9ec4f9285aae296a07ea4fd563" cid="PROP004" name="dniType" creation-date="02/23/2024 08:33:16" property-ref="936f2ad764394b59add355c03b8dd67f" />
+              <attribute id="a095e4d266c24414daea9d2f39bcba384795" cid="PROP005" name="dni" creation-date="02/23/2024 08:33:22" property-ref="c2a55f19275d4cf8a072c4ee87dea6de" />
+              <attribute id="a38dcc4867a964a2c975e034d2beab789174" cid="PROP006" name="medicalRecord" creation-date="02/23/2024 10:46:35" property-ref="967e957500004c1cb2c8f3d751b7d454" />
+              <attribute id="ac61c25d679834566a6c9cbd0a6b0a83d358" cid="PROP007" name="speciality" creation-date="02/23/2024 10:46:48" property-ref="57f921f28d344773a64dd2668b84686a" />
+            </attributes>
+          </item>
+          <item id="01240da1be4245a88383f824d589b7e3" cid="PKG002" type="package" name="Enums" creator="" creation-date="02/23/2024 10:47:20">
+            <owned-items />
+          </item>
+        </abstract-items>
+        <layer id="f734f30fb67c47109eace733041f38d9" name="Default" visible="true" enabled="true" locked="false">
+          <item id="0b478ffff17449f6b777d53ec9fca341" iid="29f1365bc5a241f48758004d8804e70e" creation-date="02/23/2024 08:28:28" order-index="0" type="entity">
+            <layout ax="635" ay="132" awidth="194" aheight="502" x="635" y="132" width="194" height="502" expanded="625,132,194,502" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="d3bdabf0233643909ec5e1d7bb7452bc" iid="00e203299b8343589b329474174e8e95" container="0b478ffff17449f6b777d53ec9fca341" container-iid="29f1365bc5a241f48758004d8804e70e" show-fields="true" creation-date="02/23/2024 08:31:07" order-index="1" type="entity">
+            <layout ax="645" ay="195.5" awidth="175" aheight="174" x="645" y="195.5" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="01240da1be4245a88383f824d589b7e3" iid="37ee0ba5c7fa4f5eae406fd6fe799b72" creation-date="02/23/2024 10:47:20" order-index="2" type="entity">
+            <layout ax="254" ay="132" awidth="350" aheight="502" x="254" y="132" width="350" height="502" expanded="254,132,350,502" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="cdaf3f50b6c04c6793bf5bc0d29a6ad0" iid="d84bdef5b664427fab24ce37dc3687c3" container="01240da1be4245a88383f824d589b7e3" container-iid="37ee0ba5c7fa4f5eae406fd6fe799b72" creation-date="02/23/2024 10:47:58" order-index="3" type="entity">
+            <layout ax="264" ay="193.5" awidth="140" aheight="178" x="264" y="193.5" width="140" height="160" />
+          </item>
+          <item id="cc037caa5a3e47e29438d5ea411c0e53" iid="14c20b5fa43442daa49ba2c9397b05c1" container="01240da1be4245a88383f824d589b7e3" container-iid="37ee0ba5c7fa4f5eae406fd6fe799b72" creation-date="02/23/2024 10:50:08" order-index="4" type="entity">
+            <layout ax="414" ay="193.5" awidth="181" aheight="272" x="414" y="193.5" width="140" height="160" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
