@@ -1,4 +1,4 @@
-package org.ptech.java.citas.entities;
+package org.ptech.java.citas.enums;
 
 public enum DniType {
     CC,

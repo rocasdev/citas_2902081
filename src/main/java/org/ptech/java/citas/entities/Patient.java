@@ -1,4 +1,5 @@
 package org.ptech.java.citas.entities;
+import org.ptech.java.citas.enums.*;
 
 import java.time.LocalDate;
 

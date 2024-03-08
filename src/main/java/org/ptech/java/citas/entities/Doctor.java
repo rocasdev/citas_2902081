@@ -1,13 +1,10 @@
 package org.ptech.java.citas.entities;
+import org.ptech.java.citas.enums.*;
 
-public class Doctor {
+
+public class Doctor extends User{
 
     // ATTRIBUTES
-    private int id;
-    private String name;
-    private String lastName;
-    private DniType dniType;
-    private Long dni;
     private Long medicalRecord;
     private Speciality speciality;
 
@@ -27,46 +24,6 @@ public class Doctor {
     } 
 
     // GETTERS AND SETTERS
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public DniType getDniType() {
-        return dniType;
-    }
-
-    public void setDniType(DniType dniType) {
-        this.dniType = dniType;
-    }
-
-    public Long getDni() {
-        return dni;
-    }
-
-    public void setDni(Long dni) {
-        this.dni = dni;
-    }
 
     public Long getMedicalRecord() {
         return medicalRecord;

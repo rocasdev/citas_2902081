@@ -6,12 +6,10 @@ import java.time.Month;
 
 import org.ptech.java.citas.entities.Appointment;
 import org.ptech.java.citas.entities.AppointmentState;
-import org.ptech.java.citas.entities.BloodType;
 import org.ptech.java.citas.entities.ConsultingRoom;
-import org.ptech.java.citas.entities.DniType;
 import org.ptech.java.citas.entities.Doctor;
 import org.ptech.java.citas.entities.Patient;
-import org.ptech.java.citas.entities.Speciality;
+import org.ptech.java.citas.enums.*;
 
 public class Main {
     public static void main(String[] args) {
