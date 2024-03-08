@@ -1,15 +1,20 @@
 package org.ptech.java.citas.entities;
 
-import org.ptech.java.citas.enums.DniType;
+import org.ptech.java.citas.entities.enums.DniType;
 
-public abstract class User {
+public class User {
     protected int id;
     protected String name;
     protected String lastName;
     protected DniType dniType;
     protected Long dni;
     
-    public User() {
+    public String toString(){
+        return "Nombre: "+this.name;
+    }
+
+    public User(){
+        
     }
 
     public User(int id, String name, String lastName, DniType dniType, Long dni) {

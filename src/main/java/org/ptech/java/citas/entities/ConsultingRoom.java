@@ -3,15 +3,15 @@ package org.ptech.java.citas.entities;
 public class ConsultingRoom {
     int id;
     String address;
-    int number;
+    int code;
 
     
     public ConsultingRoom() {
     }
-    public ConsultingRoom(int id, String address, int number) {
+    public ConsultingRoom(int id, String address, int code) {
         this.id = id;
         this.address = address;
-        this.number = number;
+        this.code = code;
     }
     public int getId() {
         return id;
@@ -25,11 +25,11 @@ public class ConsultingRoom {
     public void setAddress(String address) {
         this.address = address;
     }
-    public int getNumber() {
-        return number;
+    public int getCode() {
+        return code;
     }
-    public void setNumber(int number) {
-        this.number = number;
+    public void setCode(int code) {
+        this.code = code;
     }
 
     

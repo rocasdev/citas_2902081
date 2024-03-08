@@ -1,5 +1,6 @@
 package org.ptech.java.citas.entities;
-import org.ptech.java.citas.enums.*;
+import org.ptech.java.citas.entities.enums.DniType;
+import org.ptech.java.citas.entities.enums.Speciality;
 
 
 public class Doctor extends User{
@@ -8,23 +9,25 @@ public class Doctor extends User{
     private Long medicalRecord;
     private Speciality speciality;
 
-    // CONSTRUCTORS
-    public Doctor() {
+    public Doctor(int id, String name, String lastName, DniType dniType, Long dni) {
+        super(id, name, lastName, dniType, dni);
     }
 
     public Doctor(int id, String name, String lastName, DniType dniType, Long dni, Long medicalRecord,
             Speciality speciality) {
-        this.id = id;
-        this.name = name;
-        this.lastName = lastName;
-        this.dniType = dniType;
-        this.dni = dni;
+        super(id, name, lastName, dniType, dni);
         this.medicalRecord = medicalRecord;
         this.speciality = speciality;
-    } 
+    }
 
+    //Override methods
+
+    @Override
+    public String toString(){
+        return String.format("Nombre: %s \nApellido: %s \nRegistro Medico: %s \nEspecialidad: %s", super.name, super.lastName, this.medicalRecord, this.speciality);
+    }
+    
     // GETTERS AND SETTERS
-
     public Long getMedicalRecord() {
         return medicalRecord;
     }

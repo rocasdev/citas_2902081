@@ -1,14 +1,12 @@
 package org.ptech.java.citas.entities;
-import org.ptech.java.citas.enums.*;
+
+import org.ptech.java.citas.entities.enums.BloodType;
+import org.ptech.java.citas.entities.enums.DniType;
+
 
 import java.time.LocalDate;
 
-public class Patient {
-    private int id;
-    private String names;
-    private String lastName;
-    private DniType dniType;
-    private Long dni;
+public class Patient extends User {
     private String email;
     private Long phoneNumber;
     private LocalDate birthdate;
@@ -16,18 +14,13 @@ public class Patient {
     private Double weight;
     private BloodType bloodType;
     private char rhFactor;
-
     
-    public Patient() {
+    public Patient(int id, String name, String lastName, DniType dniType, Long dni) {
+        super(id, name, lastName, dniType, dni);
     }
 
-    public Patient(int id, String names, String lastName, DniType dniType, Long dni, String email, Long phoneNumber,
+    public Patient(String email, Long phoneNumber,
             LocalDate birthdate, Double height, Double weight, BloodType bloodType, char rhFactor) {
-        this.id = id;
-        this.names = names;
-        this.lastName = lastName;
-        this.dniType = dniType;
-        this.dni = dni;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.birthdate = birthdate;
@@ -46,11 +39,11 @@ public class Patient {
     }
 
     public String getNames() {
-        return names;
+        return name;
     }
 
-    public void setNames(String names) {
-        this.names = names;
+    public void setNames(String name) {
+        this.name = name;
     }
 
     public String getLastName() {
@@ -133,5 +126,4 @@ public class Patient {
         this.rhFactor = rhFactor;
     }
 
-    
 }
